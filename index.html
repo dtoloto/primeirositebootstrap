@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Meu Primeiro Site</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="#">Master<span class="tech">Tech</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#cursos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <header>
+            <!-- <h1>Meu Primeiro Site em Bootstrap</h1> -->
+            <h2>Meu Primeiro Site em</h2>
+            <h2 class="bootstrap">Bootstrap</h2>
+        </header>
+
+        <section class="container" id="cursos">
+            <h2>Cursos</h2>
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="img/card1.jpg">
+                      <div class="card-body">
+                        <p class="card-text">Aprenda a Programar em um FDS</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="img/card2.jpg">
+                      <div class="card-body">
+                        <p class="card-text">Bootcamp 8 Semanas</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="img/card3.jpg">
+                      <div class="card-body">
+                        <p class="card-text">UX Design</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="galeria">
+            <h2>Galeria</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/slide2.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/slide3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/slide1.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+
+        <section class="container" id="contato">
+            <h2>Contato</h2>
+            <form>
+              <div class="form-group">
+                <label>Nome*</label>
+                <input type="text" class="form-control" placeholder="Seu nome =)" required>
+              </div>
+              <div class="form-group">
+                <label>Email*</label>
+                <input type="email" class="form-control" placeholder="name@example.com" required>
+              </div>
+              <div class="form-group">
+                <label>Mensagem*</label>
+                <textarea class="form-control" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4311258591792!2d-46.68260568483983!3d-23.58886638466917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744b784bfc1%3A0x799695c6df6fc6f9!2sWeWork+Faria+Lima!5e0!3m2!1spt-BR!2sbr!4v1506900085073" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
+        <footer>
+            <p>Todos os direitos reservados.</p>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+            <script src="js/scripts.js" ></script>
+
+    </body>
+</html>

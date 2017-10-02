@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    box-shadow: 1px 0px 10px black;
+}
+header{
+    background-image: url("../img/bkg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    width: 100%;
+    padding: 23% 5%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+header h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+section{
+    padding:5%;
+}
+
+section h2{
+    margin-bottom: 5%;
+}
+
+section.map{
+    padding: 0;
+    height: 300px;
+}
+
+footer{
+    background-color: #222;
+    color: #e3e3e3;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+
+}
+
+footer p{
+    font-weight: 100;
+}
+.fixed-top{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+
+.tech{
+    color: #fd3413;
+}
+
+.bootstrap{
+    color: #fd3413;
+}
+
+.card{
+    margin-top: 5%;
+}
+
+
+
+/*DISPOSITIVOS COM TELAS MENORES QUE 575px*/
+
+@media (max-width: 575px){
+    header{
+        padding: 25% 0 20% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    header h2{
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
